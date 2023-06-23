@@ -1,0 +1,6 @@
+E:\Programacion\Frecuencias\Frecuencias.NET\obj\Debug\Interop.ComctlLib.dll
+E:\Programacion\Frecuencias\Frecuencias.NET\obj\Debug\Interop.DAO.dll
+E:\Programacion\Frecuencias\Frecuencias.NET\obj\Debug\Interop.MSAdodcLib.dll
+E:\Programacion\Frecuencias\Frecuencias.NET\obj\Debug\Interop.MSComCtl2.dll
+E:\Programacion\Frecuencias\Frecuencias.NET\obj\Debug\AxInterop.ComctlLib.dll
+E:\Programacion\Frecuencias\Frecuencias.NET\obj\Debug\Frecuencias.vbproj.ResolveComReference.cache

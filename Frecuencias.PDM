@@ -1,0 +1,231 @@
+[Root]
+Most Recent Package=Paquete de instalación estándar 1
+
+
+[Package|Paquete de instalación estándar 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Frecuencias\Instalar
+
+[Package|Paquete de instalación estándar 1|Configure DAO ISAMs]
+Applicable=Yes
+Text=Yes
+Paradox=Yes
+Excel=Yes
+Xbase=Yes
+Lotus=Yes
+Jet 2.x=Yes
+Exchange=Yes
+
+[Package|Paquete de instalación estándar 1|Configure DAO ODBC]
+JetWorkspace=Yes
+ODBCDirect=Yes
+
+[Package|Paquete de instalación estándar 1|Files Found]
+frecuencias.mdb=D:\Program Files\Gestor de Frecuencias\frecuencias.mdb
+
+[Package|Paquete de instalación estándar 1|Files Released]
+
+[Package|Paquete de instalación estándar 1|Missing Dependency Information]
+C:\Archivos de programa\Archivos comunes\SYSTEM\ADO\MSADO20.TLB=
+C:\W98\SYSTEM\amcompat.tlb=
+C:\Archivos de programa\ahead\Nero\WaveEditor\LEDMeter.ocx=
+C:\W98\SYSTEM\NTSvc.ocx=
+C:\W98\SYSTEM\MSADO20.TLB=
+C:\WINDOWS\system32\MSEXCH35.DLL=
+C:\Archivos de programa\CEDP Stealer\COMDLG32.OCX=
+C:\Archivos de programa\CEDP Stealer\Mscomctl.ocx=
+C:\Archivos de programa\Archivos comunes\System\ado\msado25.tlb=
+
+[Package|Paquete de instalación estándar 1|Out-of-Date Dependency Information]
+C:\W98\SYSTEM\COMDLG32.OCX=
+C:\W98\SYSTEM\MSCOMCTL.OCX=
+C:\WINDOWS\system32\MSRDO20.DLL=
+
+[Package|Paquete de instalación estándar 1|Files Added]
+frecuencias.mdb=
+
+[Package|Paquete de instalación estándar 1|Files Removed]
+
+[Package|Paquete de instalación estándar 1|Files In Project]
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Archivos de programa\Archivos comunes\Microsoft Shared\DAO\DAO350.DLL=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\VB6ES.DLL=Yes
+C:\WINDOWS\system32\MSJET35.DLL=Yes
+C:\WINDOWS\system32\MSJTER35.DLL=Yes
+C:\WINDOWS\system32\MSJINT35.DLL=Yes
+C:\WINDOWS\system32\vbajet32.dll=Yes
+C:\WINDOWS\system32\expsrv.dll=Yes
+C:\WINDOWS\system32\MSRD2X35.DLL=Yes
+C:\WINDOWS\system32\MSREPL35.DLL=Yes
+C:\WINDOWS\system32\VB5DB.DLL=Yes
+C:\WINDOWS\system32\MSRDO20.DLL=Yes
+C:\WINDOWS\system32\RDOCURS.DLL=Yes
+C:\WINDOWS\system32\RDO20ES.DLL=Yes
+C:\WINDOWS\system32\MSEXCL35.DLL=Yes
+C:\WINDOWS\system32\MSEXCH35.DLL=Yes
+C:\WINDOWS\system32\MSLTUS35.DLL=Yes
+C:\WINDOWS\system32\MSPDOX35.DLL=Yes
+C:\WINDOWS\system32\MSTEXT35.DLL=Yes
+C:\WINDOWS\system32\MSXBSE35.DLL=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\WINDOWS\system32\MSCOMCT2.OCX=Yes
+C:\WINDOWS\system32\MSCC2ES.DLL=Yes
+C:\WINDOWS\system32\comdlg32.ocx=Yes
+C:\WINDOWS\system32\CMDLGES.DLL=Yes
+C:\WINDOWS\system32\comctl32.ocx=Yes
+C:\WINDOWS\system32\CMCTLES.DLL=Yes
+C:\WINDOWS\system32\MSADODC.OCX=Yes
+C:\WINDOWS\system32\MSSTDFMT.DLL=Yes
+C:\WINDOWS\system32\STDFTES.DLL=Yes
+C:\WINDOWS\system32\ADODCES.DLL=Yes
+D:\Program Files\Gestor de Frecuencias\Frecuencias.exe=Yes
+D:\Program Files\Gestor de Frecuencias\frecuencias.mdb=Yes
+
+[Package|Paquete de instalación estándar 1|Configure Registry Files]
+Applicable=No
+
+[Package|Paquete de instalación estándar 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Paquete de instalación estándar 1|Install Locations]
+C:\Frecuencias\Frecuencias.exe=$(AppPath)
+C:\W98\SYSTEM\msvbvm60.dll=$(WinSysPathSysFile)
+C:\W98\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\W98\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\W98\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\W98\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\W98\SYSTEM\VB6ES.DLL=$(WinSysPath)
+C:\W98\SYSTEM\NTSvc.ocx=$(WinSysPath)
+C:\Archivos de programa\ahead\Nero\WaveEditor\LEDMeter.ocx=$(WinSysPath)
+C:\W98\SYSTEM\amcompat.tlb=$(WinSysPath)
+C:\W98\SYSTEM\MSADODC.OCX=$(WinSysPath)
+C:\W98\SYSTEM\MSSTDFMT.DLL=$(WinSysPath)
+C:\W98\SYSTEM\STDFTES.DLL=$(WinSysPath)
+C:\W98\SYSTEM\ADODCES.DLL=$(WinSysPath)
+C:\Archivos de programa\Archivos comunes\SYSTEM\ADO\MSADO20.TLB=$(WinSysPath)
+C:\Archivos de programa\Archivos comunes\Microsoft Shared\DAO\DAO350.DLL=$(MSDAOPath)
+C:\W98\SYSTEM\msjet35.dll=$(WinSysPathSysFile)
+C:\W98\SYSTEM\msjter35.dll=$(WinSysPathSysFile)
+C:\W98\SYSTEM\msjint35.dll=$(WinSysPathSysFile)
+C:\W98\SYSTEM\VBAJET32.DLL=$(WinSysPathSysFile)
+C:\W98\SYSTEM\EXPSRV.DLL=$(WinSysPathSysFile)
+C:\W98\SYSTEM\msrd2x35.dll=$(WinSysPathSysFile)
+C:\W98\SYSTEM\msrepl35.dll=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\W98\SYSTEM\VB5DB.DLL=$(WinSysPath)
+C:\W98\SYSTEM\MSCOMCTL.OCX=$(WinSysPath)
+C:\W98\SYSTEM\MSCMCES.DLL=$(WinSysPath)
+C:\W98\SYSTEM\COMCT232.OCX=$(WinSysPath)
+C:\W98\SYSTEM\CMCT2ES.DLL=$(WinSysPath)
+C:\W98\SYSTEM\MSDATGRD.OCX=$(WinSysPath)
+C:\W98\SYSTEM\DATGDES.DLL=$(WinSysPath)
+C:\W98\SYSTEM\MSDATLST.OCX=$(WinSysPath)
+C:\W98\SYSTEM\DATLSES.DLL=$(WinSysPath)
+C:\W98\SYSTEM\MSWINSCK.OCX=$(WinSysPath)
+C:\W98\SYSTEM\WINSKES.DLL=$(WinSysPath)
+C:\W98\SYSTEM\COMDLG32.OCX=$(WinSysPath)
+C:\W98\SYSTEM\CMDLGES.DLL=$(WinSysPath)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\W98\SYSTEM\MSRDO20.DLL=$(WinSysPath)
+C:\W98\SYSTEM\RDOCURS.DLL=$(WinSysPath)
+C:\W98\SYSTEM\RDO20ES.DLL=$(WinSysPath)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\W98\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\W98\SYSTEM\MSADO20.TLB=$(WinSysPath)
+D:\Programacion\Frecuencias\frecuencias=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\WINDOWS\system32\VB6ES.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSJET35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSJTER35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSJINT35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\expsrv.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSRD2X35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSREPL35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\VB5DB.DLL=$(WinSysPath)
+C:\Archivos de programa\CEDP Stealer\Mscomctl.ocx=$(WinSysPath)
+C:\Archivos de programa\CEDP Stealer\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSRDO20.DLL=$(WinSysPath)
+C:\WINDOWS\system32\RDOCURS.DLL=$(WinSysPath)
+C:\WINDOWS\system32\RDO20ES.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSEXCL35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSEXCH35.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSLTUS35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSPDOX35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSTEXT35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSXBSE35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Utiles\Frecuencias\Frecuencias.exe=$(AppPath)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSCOMCT2.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCC2ES.DLL=$(WinSysPath)
+C:\WINDOWS\system32\comdlg32.ocx=$(WinSysPath)
+C:\WINDOWS\system32\CMDLGES.DLL=$(WinSysPath)
+C:\WINDOWS\system32\comctl32.ocx=$(WinSysPath)
+C:\WINDOWS\system32\CMCTLES.DLL=$(WinSysPath)
+C:\Utiles\Frecuencias\frecuencias.mdb=$(AppPath)
+C:\Archivos de programa\Archivos comunes\System\ado\msado25.tlb=$(WinSysPath)
+C:\WINDOWS\system32\MSADODC.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\STDFTES.DLL=$(WinSysPath)
+C:\WINDOWS\system32\ADODCES.DLL=$(WinSysPath)
+C:\frecuencias.exe=$(AppPath)
+D:\Program Files\Gestor de Frecuencias\Frecuencias.exe=$(AppPath)
+D:\Program Files\Gestor de Frecuencias\frecuencias.mdb=$(AppPath)
+
+[Package|Paquete de instalación estándar 1|Configure Shared Files]
+Applicable=Yes
+C:\Frecuencias\Frecuencias.exe=No
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+D:\Programacion\Frecuencias\frecuencias=No
+C:\Utiles\Frecuencias\Frecuencias.exe=No
+C:\Utiles\Frecuencias\frecuencias.mdb=Yes
+C:\frecuencias.exe=No
+D:\Program Files\Gestor de Frecuencias\Frecuencias.exe=No
+D:\Program Files\Gestor de Frecuencias\frecuencias.mdb=No
+
+[Package|Paquete de instalación estándar 1|Distribution]
+Type=single
+Size=
+Title=Gestor de Frecuencias
+
+[Package|Paquete de instalación estándar 1|IconGroups]
+Group0=Gestor de Frecuencias
+PrivateGroup0=0
+Parent0=$(Programs)
+
+[Package|Paquete de instalación estándar 1|Gestor de Frecuencias]
+Icon1=Frecuencias.exe
+Title1=Gestor de Frecuencias
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Paquete de instalación estándar 1|Package]
+PackageFolder=C:\Frecuencias\Instalar
+ProjectFolder=E:\Programacion\Frecuencias
+ServerSideCab=
+File1=C:\Frecuencias\Instalar\setup.exe
+File2=C:\Frecuencias\Instalar\Setup.Lst
+File3=C:\Frecuencias\Instalar\Frecuencias.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
